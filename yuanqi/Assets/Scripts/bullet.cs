@@ -21,9 +21,7 @@ public class bullet : MonoBehaviour
         switch (collision.tag)
         {
             case "tank":
-                {
-                    collision.SendMessage("Die");
-                }
+                collision.SendMessage("Die");
                 break;
             case "enemy":
 

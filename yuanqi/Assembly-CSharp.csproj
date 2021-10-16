@@ -55,8 +55,11 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\gun.cs" />
     <Compile Include="Assets\Scripts\player.cs" />
-    <Compile Include="Assets\Scripts\bullet.cs" />
+    <Compile Include="Assets\Scripts\pig.cs" />
     <Compile Include="Assets\Scripts\door.cs" />
+    <Compile Include="Assets\Scripts\bullet.cs" />
+    <Compile Include="Assets\Scripts\goblin.cs" />
+    <Compile Include="Assets\Scripts\enemygun.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
